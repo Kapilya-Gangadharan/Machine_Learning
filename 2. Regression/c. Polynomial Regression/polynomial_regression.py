@@ -23,7 +23,7 @@ lin_reg_2 = LinearRegression()
 lin_reg_2.fit(X_poly, y)
 
 
-plt.rcParams["figure.figsize"] = [12,8]
+plt.rcParams["figure.figsize"] = [10,6]
 
 fig, axes = plt.subplots(nrows=1, ncols=3)
 
